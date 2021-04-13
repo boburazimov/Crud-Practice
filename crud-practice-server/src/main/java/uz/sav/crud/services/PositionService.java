@@ -29,7 +29,7 @@ public class PositionService {
         return positionRepository.findAll();
     }
 
-    public PositionEntity get(Integer id) {
+    public PositionEntity getById(Integer id) {
         return positionRepository.findById(id).get();
     }
 
